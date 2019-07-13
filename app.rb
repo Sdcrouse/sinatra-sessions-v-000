@@ -38,7 +38,6 @@ class App < Sinatra::Base
   end
 
   get '/set_session' do
-    binding.pry
     #set session id here
 
     if session[:id] == 1
